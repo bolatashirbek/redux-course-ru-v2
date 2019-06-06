@@ -30,7 +30,7 @@ const mapStateToProps = store => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    setYearAction: year => dispatch(setYear(year)), [1],
+    setYearAction: year => dispatch(setYear(year)),
   }
 }
 
